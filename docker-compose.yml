@@ -2,8 +2,8 @@ version: "3.9"
 
 services:
   service1:
-    image: microservice_gateway:latest
-    build: ./service1
+    image: microservice_gateway:latest # Tag of the built image used for Service1
+    build: ./service1 # Path to the Dockerfile for building the image
     ports:
       - "8199:8199"   # only service1 exposed
     networks:
@@ -15,7 +15,7 @@ services:
       - storage
 
   service2:
-    image: microservice_worker:latest
+    image: microservice_worker:latest # Tag of the built image used for Service2
     build: ./service2
     networks:
       - appnet
@@ -25,7 +25,7 @@ services:
       - storage
 
   storage:
-    image: microservice_storage:latest
+    image: microservice_storage:latest # Tag of the built image used for Storage
     build: ./storage
     networks:
       - appnet

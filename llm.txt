@@ -1,0 +1,20 @@
+I used ChatGPT (GPT-5) via the web browser while working on this exercise.
+
+Reasons to use:
+
+To clarify course concepts related to Docker, Docker Compose, networking, and persistent storage.
+To learn best practices in containerization and microservice design.
+To learn about Node.js and Python services for REST API handling and calculating measurements for status requests.
+To Troubleshoot errors in the code while testing and find out fixes.
+To find out equivalent commands for Windows.
+
+How it was helpful:
+
+Explaining Docker and Compose commands with different parameters (docker build, docker compose up, volumes, networks, etc.).
+Explaining differences between calculations. ex: process.uptime() and /proc/uptime
+Helping to draft some of the sections of the report.
+
+Mistakes Made by LLM:
+
+Sometimes, it gave over-detailed explanations or extra steps that were not related.
+Some commands suggested by LLM for Windows command prompt/Powershell did not work and threw errors.
