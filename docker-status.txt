@@ -1,0 +1,15 @@
+docker container ls
+CONTAINER ID   IMAGE                         COMMAND                  CREATED      STATUS          PORTS                    NAMES
+a7be96482525   microservice_gateway:latest   "docker-entrypoint.s…"   5 days ago   Up 25 minutes   0.0.0.0:8199->8199/tcp   exercise1-service1-1
+ef2559a94359   microservice_worker:latest    "python app.py"          5 days ago   Up 25 minutes   8001/tcp                 exercise1-service2-1
+5b0ee5b73ad7   microservice_storage:latest   "docker-entrypoint.s…"   5 days ago   Up 25 minutes   8000/tcp                 exercise1-storage-1
+
+
+
+docker network ls
+NETWORK ID     NAME                   DRIVER    SCOPE
+0cc5783d0f58   bridge                 bridge    local
+506c61ea7561   exercise1_appnet       bridge    local
+0603d343d957   host                   host      local
+e6cddf22358d   none                   null      local
+
