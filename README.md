@@ -44,7 +44,7 @@ cd comp.se.140-devops-course
 # Start all services
 docker-compose up --build
 
-# Start in background
+# Or start in background
 docker-compose up --build -d
 
 # Stop services
