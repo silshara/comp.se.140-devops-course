@@ -44,7 +44,7 @@ cd comp.se.140-devops-course
 # Start all services
 docker-compose up --build
 
-# Start in background
+# Or start in background
 docker-compose up --build -d
 
 # Stop services
@@ -64,7 +64,7 @@ curl localhost:8199/log
 cat ./vstorage
 ```
 
-## Cleanup Instructions for Teachers
+## Cleanup Instructions
 
 ### To completely clean the system:
 
