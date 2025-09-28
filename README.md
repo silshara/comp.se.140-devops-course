@@ -64,7 +64,7 @@ curl localhost:8199/log
 cat ./vstorage
 ```
 
-## Cleanup Instructions for Teachers
+## Cleanup Instructions
 
 ### To completely clean the system:
 
