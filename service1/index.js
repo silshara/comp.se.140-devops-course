@@ -97,6 +97,11 @@ app.get('/log', async (req, res) => {
   }
 });
 
+/**
+ * DELETE /log
+ *
+ * Handles log cleanup in storage service. This is an extra endpoint
+**/
 app.delete('/log', async (req, res) => {
   try {
     const deleteResponse = await axios.delete(STORAGE_URL);
@@ -107,6 +112,11 @@ app.delete('/log', async (req, res) => {
   }
 });
 
+/**
+ * DELETE /vstorage
+ *
+ * Handles log cleanup in ./vstorage. This is an extra endpoint
+**/
 app.delete('/vstorage', (req, res) => {
   fs.writeFile(VSTORAGE_PATH, '', (err) => {
     if (err) {

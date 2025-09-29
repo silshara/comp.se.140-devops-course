@@ -38,7 +38,7 @@ app.get('/log', (req, res) => {
 });
 
 /**
- * Clear the log
+ * Clear the log. This is an extra endpoint
 **/
 app.delete('/log', (req, res) => {
   fs.writeFile(LOGPATH, '', (err) => {
