@@ -1,4 +1,4 @@
-# COMP.SE.140 – Docker-compose an microservices
+# COMP.SE.140 – Docker-compose and microservices
 This project implements a system of three interworking services using Docker and Docker Compose.
 
 
