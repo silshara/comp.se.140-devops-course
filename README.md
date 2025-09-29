@@ -48,9 +48,6 @@ docker-compose up --build
 
 # Or start in background
 docker-compose up --build -d
-
-# Stop services
-docker-compose down
 ```
 
 ## Testing
