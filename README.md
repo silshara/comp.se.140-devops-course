@@ -27,6 +27,8 @@ This project implements a system of three interworking services using Docker and
 
 ## Architecture
 
+<img width="937" height="697" alt="image" src="https://github.com/user-attachments/assets/a55e60b2-4b08-45b5-b1b3-178cca84dd2a" />
+
 The system uses two types of persistent storage:
 
 1. **Named Volume (storage_data)**: Used by the Storage service for internal logs
